@@ -1,0 +1,16 @@
+{
+  "name": "hellomypi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.20.9"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve --port=8080"
+  },
+  "dependencies": {
+    "vitepress-theme-vitenote": "1.1.1"
+  }
+}
