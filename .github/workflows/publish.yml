@@ -19,21 +19,19 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
-          
       # build
       - name: build
         run: |
           yarn && yarn build
         env:
           CI: true
-
       # Deploy
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.2.11
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           ARGS: "-avz --delete"
-          SOURCE: ".vitepress/dist"
+          SOURCE: ".vitepress/dist/"
           REMOTE_HOST: "outlove.cn"
           REMOTE_USER: "root"
           TARGET: "/root/home/www/pi/"
