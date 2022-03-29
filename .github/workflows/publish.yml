@@ -34,4 +34,4 @@ jobs:
           SOURCE: ".vitepress/dist/"
           REMOTE_HOST: "outlove.cn"
           REMOTE_USER: "root"
-          TARGET: "/root/home/www/pi/"
+          TARGET: "/root/home/www/www/"
