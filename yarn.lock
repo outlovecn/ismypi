@@ -993,10 +993,10 @@ vite@^2.8.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitepress-theme-vitenote@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/vitepress-theme-vitenote/-/vitepress-theme-vitenote-1.2.1.tgz#4b43817fd1430646d42c02b361c2312accd54a65"
-  integrity sha512-uYlKhs/cbarho52SjiWHXTo/8/C+CFwasXUZfIvFrPAZzkBTVz4cNJLuoIQB8UnlyjKyJFaNvyvaFbxvqA6cxg==
+vitepress-theme-vitenote@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/vitepress-theme-vitenote/-/vitepress-theme-vitenote-1.2.2.tgz#4b9ceeaba6630f19957575b34ea8801b8582ca9a"
+  integrity sha512-dQhhWYqknTP/4yx8K6utDPlntxo+4pfx8/JRvbmkGcfq1Syw1aSMSAlAlUtk1eADQ2ch/R7y8uREaBTRUG0L7Q==
   dependencies:
     gray-matter "^4.0.3"
     rd "^2.0.1"
