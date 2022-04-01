@@ -11,6 +11,6 @@
     "serve": "vitepress serve --port=8080"
   },
   "dependencies": {
-    "vitepress-theme-vitenote": "^1.2.3"
+    "vitepress-theme-vitenote": "^1.2.4"
   }
 }
