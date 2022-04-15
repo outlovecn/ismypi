@@ -10,17 +10,15 @@ updated: 2021-11-20 11:46:00
 
 近日在玩树莓派时发现了有趣的玩意: 在树莓派登录信息中加入温度 CPU、内存硬盘占用率信息
 
-拿来主义！
+把这个用到阿里云 ECS 上试一试效果！
 
-把这个用到阿里云ECS上试一试效果！
-
-----------
+---
 
 文档：
 
 1. [在树莓派登录信息中加入温度 CPU、内存硬盘占用率信息](https://shumeipai.nxez.com/2021/08/25/add-memory-and-disk-occupancy-info-to-login-info.html)
 
-首先ssh登录ECS， 看一下最初的登录信息
+首先 ssh 登录 ECS， 看一下最初的登录信息
 
 ```shell
 Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-89-generic x86_64)
@@ -50,7 +48,7 @@ df -h | awk '$NF=="/"{printf "Disk: %.1f/%.1fGB %s\n\n", $3,$2,$5}'
 
 ```
 
-重新ssh登录
+重新 ssh 登录
 
 ```
 Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-89-generic x86_64)

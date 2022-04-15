@@ -21,14 +21,6 @@ export default defineConfig({
         link: "/categories/",
       },
       {
-        name: "前端网站",
-        link: "/sites/index",
-      },
-      {
-        name: "在线工具",
-        link: "/tools/index",
-      },
-      {
         name: "关于我",
         link: "/about/index",
       },
